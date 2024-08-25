@@ -28,10 +28,10 @@ function insertItens(item, index){
         <td>${item.funcao}</td>
         <td>${item.salario}</td>
         <td class="acao">
-            <button onclick = "editItem(${index})"><i class="fa-solid fa-pen-to-square"></i><button>
+            <button onclick = "editItem(${index})"><i class="fa-solid fa-pen-to-square"></i></button>
         </td>
         <td class = "acao">
-            <button onclick = "deleteItem(${index}"<i class="fa-solid fa-trash"></i>
+            <button onclick = "deleteItem(${index}"<i class="fa-solid fa-trash"></i></button>
         </td>
     
     `
